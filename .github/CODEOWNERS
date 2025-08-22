@@ -1,0 +1,40 @@
+# CODEOWNERS file for map-database-294
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-api @Armor-test/grp-reporting @Armor-test/dept-automation
+
+# Directory ownership
+/dist/ @Armor-test/squad-ml @Armor-test/squad-reporting
+/build/ @Armor-test/team-logging @Armor-test/unit-test @Armor-test/squad-apps
+/src/ @Armor-test/unit-governance @Armor-test/grp-api
+/services/ @Armor-test/unit-governance @Armor-test/unit-test @Armor-test/dept-automation
+/components/ @Armor-test/squad-cache @Armor-test/dept-test @Armor-test/squad-qa
+/config/ @Armor-test/squad-tooling @Armor-test/team-core @Armor-test/squad-ux
+/api/ @Armor-test/dept-security @Armor-test/squad-frontend
+/assets/ @Armor-test/team-security @Armor-test/dept-release @Armor-test/team-reporting
+/migrations/ @Armor-test/dept-release @Armor-test/dept-logging @Armor-test/squad-research
+/db/ @Armor-test/grp-api @Armor-test/unit-devops @Armor-test/squad-api
+/pages/ @Armor-test/dept-billing @Armor-test/team-governance
+/auth/ @Armor-test/squad-database @Armor-test/squad-qa @Armor-test/grp-payments
+
+# File type ownership
+*.css @Armor-test/squad-apps @Armor-test/dept-api @Armor-test/squad-cache
+*.py @Armor-test/team-security @Armor-test/unit-design @Armor-test/dept-notifications
+*.yml @Armor-test/dept-reporting @Armor-test/grp-api
+*.properties @Armor-test/team-logging @Armor-test/grp-integration @Armor-test/squad-cache
+*.gradle @Armor-test/squad-database @Armor-test/squad-ml @Armor-test/squad-research
+*.sh @Armor-test/squad-api @Armor-test/squad-apps @Armor-test/team-frontend
+*.ini @Armor-test/squad-qa @Armor-test/dept-automation
+*.rs @Armor-test/dept-ui @Armor-test/unit-cloud
+*.proto @Armor-test/squad-apps @Armor-test/dept-automation @Armor-test/team-core
+*.config @Armor-test/dept-logging @Armor-test/dept-ui @Armor-test/squad-apps
+*.json @Armor-test/dept-security @Armor-test/dept-billing
+*.h @Armor-test/squad-tooling @Armor-test/unit-design @Armor-test/squad-reporting
+*.scss @Armor-test/grp-ui @Armor-test/dept-data @Armor-test/team-notifications
+*.yaml @Armor-test/squad-frontend @Armor-test/dept-reporting @Armor-test/grp-ui
+*.lock @Armor-test/squad-database @Armor-test/squad-ml @Armor-test/squad-apps
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+package.json @Armor-test/dependency-team @Armor-test/security
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
